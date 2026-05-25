@@ -8,3 +8,8 @@ sentencepiece==0.2.0
 safetensors==0.4.5
 --extra-index-url https://download.pytorch.org/whl/cu121
 torch==2.4.1
+
+open_clip_torch==2.26.1
+ftfy==6.2.3
+timm==1.0.11
+einops==0.8.0
