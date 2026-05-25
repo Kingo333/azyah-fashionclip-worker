@@ -512,6 +512,7 @@ async def analyze(
             content={
                 "error": "internal_error",
                 "error_type": type(e).__name__,
+                "error_message": (str(e)[:297] + "...") if len(str(e)) > 300 else str(e),
                 "wardrobe_item_id": req.wardrobe_item_id,
             },
         )
